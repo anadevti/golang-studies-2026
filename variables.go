@@ -4,9 +4,7 @@ import (
 	"fmt"
 )
 
-// o arquivo main equivale ao arquivo Program.cs no .Net
-
-func main() {
+func variables() {
 	// Declarando variáveis
 	var a string
 	var b int
@@ -18,6 +16,10 @@ func main() {
 	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", c, c)
 	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", d, d)
 
-	// Chamando functions
-	testConst()
+	// Declarando uma lista de variaveis
+	var we, are, gophers string
+
+	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", we, we)
+	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", are, are)
+	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", gophers, gophers)
 }
