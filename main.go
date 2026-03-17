@@ -20,4 +20,9 @@ func main() {
 
 	// Chamando functions
 	testConst()
+	variablesExercise1()
+	variablesExercise2()
+	variablesExercise3()
+	variablesExercise4()
+	variablesExercise5()
 }

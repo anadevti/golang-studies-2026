@@ -23,3 +23,55 @@ func variables() {
 	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", are, are)
 	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", gophers, gophers)
 }
+
+func variablesExercise1() {
+	var test int
+	test = 10
+	fmt.Printf("test = %d\n", test)
+}
+
+func variablesExercise2() {
+	var test int
+	test = 20
+	fmt.Printf("test = %d\n", test)
+}
+
+func variablesExercise3() {
+	var test int
+	test = 30
+	fmt.Printf("test = %d\n", test)
+}
+
+func variablesExercise4() {
+	a := 230
+	b := 27
+	sum := a + b
+	minn := a - b
+	fmt.Printf("a = %d, b = %d, sum = %d\n", a, b, sum)
+	fmt.Printf("a = %d, b = %d, sum = %d\n", a, b, minn)
+}
+
+func variablesExercise5() {
+	var precoDaBanana, precoDaCerveja, precoDoAbacate, precoDoSalgadinho float64 // lista
+
+	precoDaBanana = 1.25 // atribuindo valores aos itens da lista
+	precoDaCerveja = 2.98
+	precoDoAbacate = 4.59
+	precoDoSalgadinho = 7.29
+
+	var pesoBanana, quantidadeCerveja, pesoAbacate, quantidadeSalgadinho float64
+
+	pesoBanana = 2.170
+	quantidadeCerveja = 6
+	pesoAbacate = 5.650
+	quantidadeSalgadinho = 3
+
+	// O * aqui está fazendo multiplicação (operador aritmético), não é ponteiro.
+	// O ponteiro em Go é declarado junto a um tipo ou variável, por exemplo: *int, &variavel.
+	// Quando aparece entre dois valores numéricos, é sempre multiplicação.
+
+	valorDaCompra := (precoDaBanana * pesoBanana) + (precoDaCerveja * quantidadeCerveja) + // calculos
+		+(precoDoAbacate * pesoAbacate) + (quantidadeSalgadinho * precoDoSalgadinho)
+
+	fmt.Printf("O valor da compra deu R$ %v reais. O Salgadinho custou: %v a unidade", valorDaCompra, precoDoSalgadinho)
+}
