@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// Exercicios feitos referente a: https://womenwhogocwb.gitbook.io/letsgo/tipos-de-dados-basicos/exercicios
+
 func variables() {
 	// Declarando variáveis
 	var a string
@@ -74,4 +76,36 @@ func variablesExercise5() {
 		+(precoDoAbacate * pesoAbacate) + (quantidadeSalgadinho * precoDoSalgadinho)
 
 	fmt.Printf("O valor da compra deu R$ %v reais. O Salgadinho custou: %v a unidade", valorDaCompra, precoDoSalgadinho)
+}
+
+func variablesExercise6() {
+	var test string
+	test = "Meu\nNome é Ana e\n"
+
+	testString := `minha cor favorita é azul`
+	fmt.Printf("test = %s\n", test+testString)
+}
+
+func variablesExercise7() {
+	a := 10
+	b := 20
+	c := 30
+	d := 40
+	e := 50
+	fmt.Println(a == b)
+	fmt.Println(b != a)
+	fmt.Println(c > d)
+	fmt.Println(a < e)
+	fmt.Println(d <= 50)
+}
+
+func variablesExercise8() {
+	balance := 25
+	haveMovements := true
+
+	if balance >= 30 && haveMovements {
+		fmt.Println("Have movements")
+	} else {
+		fmt.Println("No Have movements")
+	}
 }
