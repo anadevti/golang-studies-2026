@@ -1,13 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // o arquivo main equivale ao arquivo Program.cs no .Net
 
 func main() {
-	// Declarando variáveis
+	//Declarando variáveis
 	var a string
 	var b int
 	var c float64
@@ -19,14 +17,17 @@ func main() {
 	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", d, d)
 
 	// Chamando functions
-	variables()
-	testConst()
-	variablesExercise1()
-	variablesExercise2()
-	variablesExercise3()
-	variablesExercise4()
-	variablesExercise5()
-	variablesExercise6()
-	variablesExercise7()
-	variablesExercise8()
+	//variables()
+	//testConst()
+	//variablesExercise1()
+	//variablesExercise2()
+	//variablesExercise3()
+	//variablesExercise4()
+	//variablesExercise5()
+	//variablesExercise6()
+	//variablesExercise7()
+	//variablesExercise8()
+	//exerciseLearning()
+	//exerciseExerciseTwo()
+	exerciseType()
 }
