@@ -28,7 +28,10 @@ func exerciseExerciseTwo() {
 func exerciseType() {
 	type test int
 	var x test
+	var y int
 	fmt.Printf("O tipo eh %T, e o valor '%v'", x, x)
 	x = 42
 	fmt.Println(x)
+	y = int(x)
+	fmt.Printf("O tipo eh %T, e o valor '%v'", y, y)
 }
