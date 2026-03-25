@@ -32,4 +32,8 @@ func main() {
 	exerciseType()
 	Exercise2()
 	Exercise3()
+	Exercise4()
+	Exercise5()
+	Exercise6()
+	Exercise7()
 }
