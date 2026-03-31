@@ -36,4 +36,14 @@ func main() {
 	Exercise5()
 	Exercise6()
 	Exercise7()
+	surprise()
+	temperatureClass(float64(0))
+
+	// testando frete function:
+	frete, err := calcularFrete(10, 200)
+	if err != nil {
+		fmt.Println("erro:", err)
+		return
+	}
+	fmt.Printf("Frete: R$ %.2f\n", frete)
 }
