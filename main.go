@@ -38,6 +38,8 @@ func main() {
 	Exercise7()
 	surprise()
 	temperatureClass(float64(0))
+	classificationNotes()
+	classificationNotesV2()
 
 	// testando frete function:
 	frete, err := calcularFrete(10, 200)
