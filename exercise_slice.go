@@ -44,12 +44,12 @@ func exercise_slice2() {
 		{Nome: "Monitor", Quantidade: 7, Preco: 900.0},
 		{Nome: "Headset", Quantidade: 1, Preco: 200.0},
 	}
-	estoque := 0.0
+
 	for _, produto := range produtos {
 		if produto.Quantidade <= 3 {
-			_ = produto.Quantidade * 3 // terminar o exercicio
+			valorEmEstoque := float64(produto.Quantidade) * produto.Preco
+			fmt.Printf("Estoque baixo: %s - quantidade: %d - valor em estoque: R$ %.2f\n",
+				produto.Nome, produto.Quantidade, valorEmEstoque)
 		}
 	}
-	fmt.Printf("Estoque baixo: R$ %.2f\n", estoque)
-
 }
