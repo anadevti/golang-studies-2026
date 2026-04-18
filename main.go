@@ -1,20 +1,18 @@
 package main
 
-import "fmt"
-
 // o arquivo main equivale ao arquivo Program.cs no .Net
 
 func main() {
 	//Declarando variáveis
-	var a string
-	var b int
-	var c float64
-	var d bool
-
-	fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", a, a)
-	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", b, b)
-	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", c, c)
-	fmt.Printf("Meu tipo é %T e meu valor é: %v\n", d, d)
+	//var a string
+	//var b int
+	//var c float64
+	//var d bool
+	//
+	//fmt.Printf("Meu tipo é %T e meu valor é: '%v'\n", a, a)
+	//fmt.Printf("Meu tipo é %T e meu valor é: %v\n", b, b)
+	//fmt.Printf("Meu tipo é %T e meu valor é: %v\n", c, c)
+	//fmt.Printf("Meu tipo é %T e meu valor é: %v\n", d, d)
 
 	// Chamando functions
 	//variables()
@@ -41,13 +39,14 @@ func main() {
 	//classificationNotes()
 	//classificationNotesV2()
 	//exerciseLogicalOperators4()
-	exerciseLogicalOperators5()
-
+	//exerciseLogicalOperators5()
+	//exercise_slice()
+	exercise_slice2()
 	// testando frete function:
-	frete, err := calcularFrete(10, 200)
-	if err != nil {
-		fmt.Println("erro:", err)
-		return
-	}
-	fmt.Printf("Frete: R$ %.2f\n", frete)
+	//frete, err := calcularFrete(10, 200)
+	//if err != nil {
+	//	fmt.Println("erro:", err)
+	//	return
+	//}
+	//fmt.Printf("Frete: R$ %.2f\n", frete)
 }
