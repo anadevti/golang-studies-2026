@@ -53,3 +53,11 @@ func exercise_slice2() {
 		}
 	}
 }
+
+func exercice_slice_without_range() { // para apagar uma slice, cria-se outra.
+	games := []string{"assasins creed", "ow", "fortnite"}
+	wihout_For := games[:]
+	fmt.Println("wihout_For: ", wihout_For)
+}
+
+// anexando uma slice
