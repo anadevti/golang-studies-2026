@@ -1,0 +1,104 @@
+package praticas
+
+import "fmt"
+
+/*
+Nível 2 — Condicionais
+Exercício 4 — Par ou ímpar
+
+Receba um número inteiro e informe:
+
+10 -> par
+7 -> ímpar
+
+Use if.
+
+Desafio extra: trate também o número 0.
+*/
+
+func Numbers(number int) {
+	if number%2 == 0 {
+		fmt.Println("par")
+	} else {
+		fmt.Println("ímpar")
+	}
+
+	Numbers(10)
+	Numbers(7)
+	Numbers(42)
+	Numbers(15)
+}
+
+/*
+Exercício 5 — Maior de três números
+
+Dado:
+
+a := 10
+b := 35
+c := 20
+
+Descubra qual é o maior.
+
+Não use funções prontas como max.
+*/
+
+func NumberMaior() {
+	a, b, c := 10, 35, 20
+	var maior int
+	if a >= b && b >= c {
+		maior = a
+	} else if b >= a && b >= c {
+		maior = b
+	} else {
+		maior = c
+	}
+	fmt.Printf("O maior número é: %d\n", maior)
+}
+
+/*
+Exercício 6 — Classificação de idade
+
+Crie uma variável idade e classifique:
+
+0 - 12    -> criança
+13 - 17   -> adolescente
+18 - 59   -> adulto
+60+       -> idoso
+
+Tente escrever de uma maneira que seja fácil de ler.
+*/
+func Ages(idade int) {
+	if idade <= 12 {
+		fmt.Println("voce ainda é uma crianca")
+	} else if idade <= 17 {
+		fmt.Println("voce ainda é um adolescente")
+	} else if idade <= 59 {
+		fmt.Println("voce ainda é um adulto")
+	} else if idade >= 60 {
+		fmt.Println("voce ainda é um idoso")
+	}
+}
+
+/*
+Exercício 7 — switch
+
+Crie uma variável:
+
+dia := 3
+
+Use switch para imprimir:
+
+1 -> Domingo
+2 -> Segunda
+3 -> Terça
+...
+7 -> Sábado
+
+Caso o número seja inválido, imprima:
+
+Dia inválido
+*/
+func dias() {
+
+}
