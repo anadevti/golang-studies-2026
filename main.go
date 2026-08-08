@@ -41,7 +41,7 @@ func main() {
 	//exerciseLogicalOperators4()
 	//exerciseLogicalOperators5()
 	//exercise_slice()
-	exercise_slice2()
+	//exercise_slice2()
 	// testando frete function:
 	//frete, err := calcularFrete(10, 200)
 	//if err != nil {
@@ -49,4 +49,5 @@ func main() {
 	//	return
 	//}
 	//fmt.Printf("Frete: R$ %.2f\n", frete)
+	countWords("golang")
 }
