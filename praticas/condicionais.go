@@ -100,5 +100,17 @@ Caso o número seja inválido, imprima:
 Dia inválido
 */
 func dias() {
-
+	dia := 3
+	switch dia {
+	case 1:
+		fmt.Println("Domingo")
+	case 2:
+		fmt.Println("Segunda")
+	case 3:
+		fmt.Println("Terca")
+	case 7:
+		fmt.Println("Sabado")
+	default:
+		fmt.Println("Dia inválido")
+	}
 }
