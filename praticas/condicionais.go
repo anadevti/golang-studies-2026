@@ -114,3 +114,45 @@ func dias() {
 		fmt.Println("Dia inválido")
 	}
 }
+
+/*
+Use for para imprimir de 1 até 10.
+Depois, modifique para imprimir apenas os números pares.
+*/
+
+func TestFor() {
+	// inicializacao // condicao // pos
+	for j := 0; j < 10; j++ {
+		if j%2 == 0 {
+			fmt.Println(j)
+		}
+	}
+}
+
+/*
+Calcule a soma dos números de 1 até 100 sem colocar o resultado
+diretamente no código.
+Resultado esperado: 5050.
+*/
+func testFor2() {
+	sum := 0
+	for j := 1; j <= 100; j++ {
+		sum += j
+	}
+	fmt.Println("A soma de 1 até 100 é:", sum)
+}
+
+/*
+### Exercício 10 — Tabuada
+
+Dado `numero := 7`, imprima a tabuada de `1` a `10`.
+*/
+
+func testFor3() {
+	num := 7
+	for j := 1; j <= 10; j++ {
+		i := num * j
+		fmt.Println("A tabuada de 1 até 10 é:", i)
+	}
+
+}
