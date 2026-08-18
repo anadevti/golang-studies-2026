@@ -1,4 +1,4 @@
-package main
+package praticas
 
 //Escreva uma função chamada classificarTemperatura que recebe um float64 e retorna uma string com a classificação:
 //

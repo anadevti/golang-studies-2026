@@ -1,5 +1,7 @@
 package main
 
+import "Studies-Golang/praticas"
+
 // o arquivo main equivale ao arquivo Program.cs no .Net
 
 func main() {
@@ -49,5 +51,5 @@ func main() {
 	//	return
 	//}
 	//fmt.Printf("Frete: R$ %.2f\n", frete)
-	countWords("golang")
+	praticas.countWords("golang")
 }
