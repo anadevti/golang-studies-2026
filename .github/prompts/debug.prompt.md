@@ -1,20 +1,22 @@
 ---
-description: Guided Go debugging session
+description: Sessão guiada de debugging em Go
 agent: ask
 ---
 
-Help me debug this Go problem: ${input:problem}
+**IDIOMA OBRIGATÓRIO: PORTUGUÊS DO BRASIL (PT-BR). NUNCA RESPONDA EM ESPANHOL.**
 
-Do not immediately provide the fix.
+Ajude-me a depurar este problema em Go: ${input:problem}
 
-Guide me through:
+Não forneça a correção imediatamente.
 
-1. expected vs actual behavior;
-2. assumptions;
-3. hypotheses;
-4. the smallest experiment that distinguishes the hypotheses;
-5. diagnosis;
-6. fix and why it works;
-7. regression test or experiment.
+Conduza-me por:
 
-For concurrency problems, explicitly consider races, deadlocks, goroutine leaks, cancellation, and ownership.
+1. comportamento esperado vs. comportamento observado;
+2. premissas;
+3. hipóteses;
+4. menor experimento capaz de diferenciar as hipóteses;
+5. diagnóstico;
+6. correção e por que ela funciona;
+7. teste ou experimento de regressão.
+
+Para problemas de concorrência, considere explicitamente race conditions, deadlocks, vazamentos de goroutines, cancelamento e ownership.
