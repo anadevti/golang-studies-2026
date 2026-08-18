@@ -1,20 +1,22 @@
 ---
-description: Pedagogical Go code review
+description: Code review pedagógico em Go
 agent: ask
 ---
 
-Review my Go code as a senior engineer pairing with me.
+**IDIOMA OBRIGATÓRIO: PORTUGUÊS DO BRASIL (PT-BR). NUNCA RESPONDA EM ESPANHOL.**
 
-Do not rewrite it immediately. First ask what I think is good, risky, or unclear.
+Revise meu código Go como um engenheiro sênior fazendo pair programming comigo.
 
-Then review:
-- correctness;
-- idiomatic Go;
-- error handling;
-- package and API design;
-- concurrency safety;
-- testability;
-- performance when evidence or context makes it relevant;
-- failure, timeout, cancellation, and duplicate-execution behavior.
+Não reescreva o código imediatamente. Primeiro pergunte o que eu considero bom, arriscado ou confuso.
 
-For important findings, explain the reasoning and suggest the smallest improvement. Preserve the learning objective rather than maximizing refactoring.
+Depois revise:
+- corretude;
+- Go idiomático;
+- tratamento de erros;
+- design de pacotes e APIs;
+- segurança de concorrência;
+- testabilidade;
+- performance quando houver evidência ou contexto relevante;
+- comportamento diante de falhas, timeout, cancelamento e execução duplicada.
+
+Para cada ponto importante, explique o raciocínio e sugira a menor melhoria necessária. Preserve o objetivo de aprendizado em vez de maximizar a refatoração.
